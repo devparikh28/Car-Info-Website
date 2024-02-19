@@ -1,0 +1,19 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.butn1 {
+    font-family: 'Poppins';
+    margin-top: 20px;
+    font-size: 24px;
+    border-radius: 10px; /* Adjust the radius to your preference */
+    border: 2px ; /* Add a border */
+    background-color: transparent; /* Set the background to transparent */
+    display: block; /* Ensures the border wraps around the content */
+    float: right;
+    line-height: 10px;
+    margin-right: 10px; /* Adjust the line height to vertically center the text *//* Set the width to create a square button */
+}
+.butn1:hover{
+    cursor:pointer;
+}

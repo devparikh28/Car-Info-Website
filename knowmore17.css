@@ -1,0 +1,111 @@
+@import url("https://www.behance.net/gallery/85669199/Amagro-typeface");
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    background:#161616;
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+h1, h2{
+    font-weight: 300;
+}
+h1{
+    margin: 1cm 0; 
+    font-size: 45px;
+    color:#161616;
+}
+.p{
+    margin: 1cm 0; /* Adjust the margin as needed */
+    font-size: 80px;
+    font-family: 'amagro';
+}
+.specs h2{
+    font-size: 2em;
+    padding-left: 1.2em;
+    border-left: 0.1em #5bc7ca solid;
+}
+ul{
+    list-style: none;
+}
+section{
+   padding:2.5em; 
+}
+.specs-header, .specs li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height:100vh;
+    min-height: 30em;
+    background: url("Mercedes amg gt/cropped-5120-2880-1090601.jpg")no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.header-body{
+    padding: 2em;
+    padding-left: 41.75%;
+    height:100%;
+    width:100%;
+    display:center;
+    align-items: center;
+}
+.specs{
+    background: url("Aston Martin valkyrie/2022-aston-martin-valkyrie-spider-4k-top-view-exterior.jpg")no-repeat centre;
+    background-size: cover;
+    min-height: 40em;
+    position: relative;
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+.specs-header, .specs ul{
+    position: relative;
+    z-index: 1;
+}
+.specs ul{
+    width: 40em;
+    margin-top: 3em;
+}
+.specs li{
+   padding: 0.6em 0;
+   border-bottom: #555 1px solid; 
+}
+.specs li span:first-child{
+    color: #888;
+}
+@media screen and (max-width: 900px) {
+    .specs ul{
+       width: 80vw; 
+    }       
+}
+@media screen and (max-width: 600px){
+    html{
+        font-size: 14px;
+    }
+
+}
+.butn1 {
+    font-family: 'Poppins';
+    margin-top: 20px;
+    font-size: 24px;
+    border-radius: 10px; /* Adjust the radius to your preference */
+    border: 2px ; /* Add a border */
+    background-color: transparent; /* Set the background to transparent */
+    display: block; /* Ensures the border wraps around the content */
+    float: left;
+    line-height: 10px;
+    margin-left: auto;  /* Adjust the line height to vertically center the text *//* Set the width to create a square button */
+}
+.butn1:hover{
+    cursor:pointer;
+}
